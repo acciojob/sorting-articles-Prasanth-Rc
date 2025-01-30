@@ -8,7 +8,7 @@ function displaySortedBands() {
         return cleanA.localeCompare(cleanB);
     });
 
-    const listElement = document.getElementById('band');
+    const listElement = document.getElementById('bands');
 
     sortedBands.forEach(band => {
         const listItem = document.createElement('li');
